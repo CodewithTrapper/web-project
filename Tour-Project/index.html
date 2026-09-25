@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0d2818">
+    <meta name="description" content="Curated Journeys — handpicked safaris, coastal escapes, and mountain treks across East Africa.">
+    <title>Curated Journeys — Rare Places, Real Stories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,700;9..144,900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <header class="header" id="header">
+        <a href="#home" class="logo"><i class="fas fa-mountain-sun"></i> Curated Journeys</a>
+        <nav class="navbar" id="navbar">
+            <button id="nav-close" class="icon-btn" aria-label="Close menu"><i class="fas fa-times"></i></button>
+            <a href="#home">Home</a>
+            <a href="#category">Adventures</a>
+            <a href="#packages">Packages</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <button id="menu-btn" class="icon-btn" aria-label="Open menu"><i class="fas fa-bars"></i></button>
+            <button id="search-btn" class="icon-btn" aria-label="Open search"><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+    <div class="search-form" id="searchForm" popover="manual">
+        <button id="close-search" class="icon-btn" aria-label="Close search"><i class="fas fa-times"></i></button>
+        <form action="">
+            <input type="search" placeholder="Where would you like to go?" id="search-box" aria-label="Search destinations">
+            <button type="submit" class="icon-btn" aria-label="Search"><i class="fas fa-arrow-right"></i></button>
+        </form>
+    </div>
+
+    <section class="home" id="home">
+        <div class="wrapper">
+            <div class="box" style="background: url(images/home1.jpg) no-repeat;">
+                <div class="content">
+                    <h3>
+                        <span class="line"><span>Never stop</span></span>
+                        <span class="line"><span><em>exploring.</em></span></span>
+                    </h3><br>
+                    <p>Curated Journeys offers best deals on tour packages. Handpicked safaris, coastal escapes, and mountain treks across East Africa — designed for travellers who want more than a postcard.</p>
+                    <a href="#category" class="btn">Get started <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="scroll-hint">
+                    <span>Scroll</span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+            <span>Maasai Mara</span>
+            <span>Diani Beach</span>
+            <span>Amboseli</span>
+            <span>Mount Kenya</span>
+            <span>Lake Nakuru</span>
+            <span>Lamu Island</span>
+            <span>Maasai Mara</span>
+            <span>Diani Beach</span>
+            <span>Amboseli</span>
+            <span>Mount Kenya</span>
+            <span>Lake Nakuru</span>
+            <span>Lamu Island</span>
+        </div>
+    </div>
+
+    <section class="category" id="category">
+        <div class="reveal">
+            <span class="eyebrow eyebrow-center">What we offer</span>
+            <h1 class="heading">Adventures for the <em>bold</em></h1>
+        </div>
+        <div class="box-container">
+            <div class="box reveal">
+                <div class="img-wrap">
+                    <img src="images/Bungee jumping.jpg" alt="Bungee Jumping" loading="lazy">
+                </div>
+                <h3>Bungee Jump</h3>
+                <p>Bungee jumping is an activity that involves a person jumping from a great height while connected to a large elastic cord.</p>
+                <a href="https://en.wikipedia.org/wiki/Bungee_jumping" class="btn" target="_blank" rel="noopener">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="box reveal">
+                <div class="img-wrap">
+                    <img src="images/Zip lining.jpg" alt="Zip Lines" loading="lazy">
+                </div>
+                <h3>Zip Lines</h3>
+                <p>A zip-line is a pulley suspended on a cable, usually made of stainless steel, mounted on a slope.</p>
+                <a href="https://en.wikipedia.org/wiki/Zip_line" class="btn" target="_blank" rel="noopener">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="box reveal">
+                <div class="img-wrap">
+                    <img src="images/canoeing.jpg" alt="Canoeing" loading="lazy">
+                </div>
+                <h3>Canoeing</h3>
+                <p>Canoeing is an activity which involves paddling a canoe with a single-bladed paddle.</p>
+                <a href="https://en.wikipedia.org/wiki/Canoeing" class="btn" target="_blank" rel="noopener">Read more <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="packages" id="packages">
+        <div class="reveal">
+            <span class="eyebrow eyebrow-center">Popular packages</span>
+            <h1 class="heading">Journeys worth <em>taking</em></h1>
+        </div>
+        <div class="box-container">
+            <article class="box reveal tilt">
+                <div class="image">
+                    <span class="tag">Safari</span>
+                    <img src="images/img-1.jpg" alt="Maasai Mara" loading="lazy">
+                </div>
+                <div class="content">
+                    <h3>Maasai Mara</h3>
+                    <p>Home to the Great Wildebeest Migration and the Big Five, the Maasai Mara is Kenya's most iconic safari destination. Game drives, hot air balloon safaris, and Maasai cultural visits.</p>
+                    <div class="meta">
+                        <div class="price"><small>From</small>Ksh 45,999</div>
+                        <a href="#contact" class="btn">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </article>
+            <article class="box reveal tilt">
+                <div class="image">
+                    <span class="tag">Coastal</span>
+                    <img src="images/img-2.jpg" alt="Diani Beach" loading="lazy">
+                </div>
+                <div class="content">
+                    <h3>Diani Beach</h3>
+                    <p>Voted Africa's leading beach destination, Diani boasts powdery white sand, turquoise waters, and swaying palms. Snorkeling, kitesurfing, dhow cruises, and vibrant nightlife.</p>
+                    <div class="meta">
+                        <div class="price"><small>From</small>Ksh 35,999</div>
+                        <a href="#contact" class="btn">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </article>
+            <article class="box reveal tilt">
+                <div class="image">
+                    <span class="tag">Safari</span>
+                    <img src="images/img-3.jpg" alt="Amboseli National Park" loading="lazy">
+                </div>
+                <div class="content">
+                    <h3>Amboseli</h3>
+                    <p>Famous for its large elephant herds and breathtaking views of Mount Kilimanjaro. Spot lions, cheetahs, buffalo, and over 400 bird species against Africa's highest peak.</p>
+                    <div class="meta">
+                        <div class="price"><small>From</small>Ksh 28,999</div>
+                        <a href="#contact" class="btn">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </article>
+            <article class="box reveal tilt">
+                <div class="image">
+                    <span class="tag">Trekking</span>
+                    <img src="images/img-4.jpg" alt="Mount Kenya" loading="lazy">
+                </div>
+                <div class="content">
+                    <h3>Mount Kenya</h3>
+                    <p>Africa's second-highest mountain offers thrilling trekking routes through glaciers, alpine meadows, and dense forests. Summit Point Lenana or explore the lower slopes.</p>
+                    <div class="meta">
+                        <div class="price"><small>From</small>Ksh 38,999</div>
+                        <a href="#contact" class="btn">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </article>
+            <article class="box reveal tilt">
+                <div class="image">
+                    <span class="tag">Wildlife</span>
+                    <img src="images/img-5.jpg" alt="Lake Nakuru" loading="lazy">
+                </div>
+                <div class="content">
+                    <h3>Lake Nakuru</h3>
+                    <p>Famed for its flamingo flocks and rhino sanctuary, Lake Nakuru National Park is a birder's paradise. Encounter black and white rhinos, Rothschild giraffes, and rift valley scenery.</p>
+                    <div class="meta">
+                        <div class="price"><small>From</small>Ksh 22,999</div>
+                        <a href="#contact" class="btn">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </article>
+            <article class="box reveal tilt">
+                <div class="image">
+                    <span class="tag">Culture</span>
+                    <img src="images/img-6.jpg" alt="Lamu Island" loading="lazy">
+                </div>
+                <div class="content">
+                    <h3>Lamu Island</h3>
+                    <p>A UNESCO World Heritage Site, Lamu is Kenya's oldest Swahili settlement. Wander narrow streets, ride donkeys, sail on traditional dhows, and immerse yourself in Swahili culture.</p>
+                    <div class="meta">
+                        <div class="price"><small>From</small>Ksh 32,000</div>
+                        <a href="#contact" class="btn">Explore <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="wrapper1">
+            <div class="contact-intro reveal">
+                <span class="eyebrow">Get in touch</span>
+                <h1>Let's plan your <em>next</em> story.</h1>
+                <p>Tell us where you want to go, what you want to see, and how you like to travel. We'll craft a journey that fits.</p>
+                <div class="contact-details">
+                    <a href="tel:+254790778102"><i class="fas fa-phone"></i> +254 790 778 102</a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bunimanu001@gmail.com" target="_blank" rel="noopener"><i class="fas fa-envelope"></i> bunimanu001@gmail.com</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> Mombasa, Kenya — 80100</a>
+                </div>
+            </div>
+            <form class="contact-form reveal" method="post" action="contact_us.php">
+                <div class="row">
+                    <div class="field">
+                        <input type="text" name="name" id="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="field">
+                        <input type="email" name="email" id="email" placeholder=" " required>
+                        <label for="email">Email Address</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="field">
+                        <input type="tel" name="phone" id="phone" placeholder=" ">
+                        <label for="phone">Phone</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="subject" id="subject" placeholder=" ">
+                        <label for="subject">Subject</label>
+                    </div>
+                </div>
+                <div class="field">
+                    <textarea name="message" id="message" placeholder=" " required></textarea>
+                    <label for="message">Tell us about your dream trip…</label>
+                </div>
+                <button type="submit" class="submit-btn">Send message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="box-container">
+            <div class="brand">
+                <a href="#home" class="logo"><i class="fas fa-mountain-sun"></i> Curated Journeys</a>
+                <p>Rare places, real stories. Handpicked journeys across East Africa for travellers who want more than a postcard.</p>
+            </div>
+            <div class="box">
+                <h3>Explore</h3>
+                <a href="#home">Home</a>
+                <a href="#category">Adventures</a>
+                <a href="#packages">Packages</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="box">
+                <h3>Support</h3>
+                <a href="#contact">Ask questions</a>
+                
+            </div>
+            <div class="box">
+                <h3>Follow</h3>
+                <a href="https://www.linkedin.com/in/emmanuel-buni-1b5150434" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/CodewithTrapper" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+        <div class="credit">Created by <span>Emanuel Buni</span> — All rights reserved.</div>
+    </footer>
+
+    <button class="cta-top" id="ctaTop" aria-label="Scroll back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
